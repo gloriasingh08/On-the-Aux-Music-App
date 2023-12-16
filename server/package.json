@@ -1,0 +1,36 @@
+{
+  "name": "on-the-aux",
+  "version": "1.0.0",
+  "description": "Backend for INFO6150 Final Group Project",
+  "main": "server.js",
+  "type": "module",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "audio",
+    "app",
+    "nodejs",
+    "mongo"
+  ],
+  "author": "Prasad Sreyoshi Gloria Trisha",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "bcrypt": "^5.0.1"
+  }
+}

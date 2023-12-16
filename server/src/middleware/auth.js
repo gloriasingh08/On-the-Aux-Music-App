@@ -1,0 +1,6 @@
+import jwt from 'jsonwebtoken';
+
+const token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Imdsb3JpYXNpbmdoMDhAZ21haWwuY29tIiwidXNlcklkIjoiNjI2NGQxOGY5YmIzMGJjNmE1NjNlY2Y1IiwiaWF0IjoxNjUwODUwMzM1LCJleHAiOjE2NTgwNTAzMzV9.wd3dUAGTtOs9jZJ5Q6rJxUJ53boL4W08NqH_yxcrllk;
+
+// var base=jwt.verify
+//testing purpose
