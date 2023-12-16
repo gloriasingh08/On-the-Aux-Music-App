@@ -1,0 +1,15 @@
+@import "./../../Utils/scss/variables";
+
+.home-music-container{
+    display: flex;
+    .sidebar-home{
+      flex: 0.15;
+      // position: fixed;
+    }
+    .main-home{
+      flex: 0.85;
+      height: 80vh;
+      overflow-y: auto ;
+      margin: auto;
+    }
+}

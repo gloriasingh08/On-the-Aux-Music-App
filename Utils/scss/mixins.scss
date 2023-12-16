@@ -1,0 +1,19 @@
+@mixin buttonStyleforLoginSignUp {
+    
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    width: 90%;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    &:hover{
+        background-color: #CF7D73;
+             width: 95%;
+             box-shadow: 5px 5px 5px 5px black;   
+    }
+
+}
+
+
