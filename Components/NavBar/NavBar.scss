@@ -1,0 +1,61 @@
+/*
+    Author:     Web Of Lies
+    Subject:    INFO6150 - Web Design and UX
+    Purpose:    SCSS file for NavBar Component
+*/
+@import '../../Utils/scss/_variables';
+
+.aside-bar {
+    background-color: $color-black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 90vh;
+    overflow: auto;
+    border-right: 1px solid $color-white;
+    .p1 {
+        border-bottom: 1px solid $color-white;
+        border-top: 1px solid $color-white;
+        color: $color-orange;
+        padding: 15px;
+        font-weight: bolder;
+        user-select: none;
+    }
+    
+    .lib-sub {
+        padding: 10px;
+        width: 95%;
+        margin: 5px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        .MuiButton-startIcon{
+        color: $color-orange;
+        } 
+        .MuiButton-label{
+            color: $color-white;
+        }
+    }
+    .lib-sub:hover {
+        background-color: $color-blue;
+        .MuiButton-label {
+            color: $color-black;
+        }
+        .MuiButton-startIcon{
+            color: $color-black;
+            }
+    }
+    .aside-bar-container {
+        display: flex;
+        flex-flow: column;
+        width: 100%;
+    }
+    .playlist{
+        flex: 1;
+        .lib-sub:hover{
+        background-color: $color-blue;
+        }
+        
+    }
+}

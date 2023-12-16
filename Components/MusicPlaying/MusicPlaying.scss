@@ -1,0 +1,152 @@
+@import "./../../Utils/scss/variables";
+
+.songImgMusic {
+    height: 250px;
+    width: 395px;
+    position: relative;
+    margin-left: 280px;
+}
+
+.row {
+    margin-top: 40px !important;
+}
+
+.audioDiv {
+    margin-top: 60px !important;
+    margin-left: 125px;
+}
+
+// .audio {
+//     margin-top: 60px !important;
+//     margin-left: 125px;
+// }
+.musicMain {
+    background-image: var(--bgImage);
+    margin-left: 16%;
+    padding: 1%;
+    /* display: flex; */
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+    height: 30vw;
+    // border-radius: 20px;
+    // box-shadow: 0 0 15px 5px black;
+
+
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(13.8px);
+    -webkit-backdrop-filter: blur(13.8px);
+    color: $color-white;
+}
+
+.internetRadio {
+    margin: auto;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.navbar {
+    background-color: red;
+}
+
+.box,
+.elem {
+    position: absolute;
+}
+
+// .box {
+//     width: 650px;
+//     height: 180px;
+//     // margin:20px;
+//     cursor: pointer;
+// }
+// .diskStart {
+//       width:250px;
+//       height:250px;
+//       border-style:solid;
+//       border-radius:50%;
+//       border-width:60px;
+//       border-color:#983b3b #98983b #3b9859 #3b5998;
+//       animation:rotate;
+//       animation-duration:2s;
+//       animation-iteration-count:infinite;
+//       animation-timing-function:linear;
+// }
+.diskStart {
+    width: 255px;
+    height: 255px;
+    // background-image: url('../../Assets/Img/songDisk.png');
+    background-image: url('../../Assets/Img/vinyl-record.png');
+    background-size: contain;
+    animation: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+}
+
+.diskStop {
+    width: 255px;
+    height: 255px;
+    background-image: url('../../Assets/Img/vinyl-record.png');
+    background-size: contain;
+    border-radius: 50%;
+    // border-color:#983b3b #98983b #3b9859 #3b5998;
+}
+
+//   .diskStop {
+//     width:250px;
+//     height:250px;
+//     border-style:solid;
+//     border-radius:50%;
+//     border-width:60px;
+//     border-color:#983b3b #98983b #3b9859 #3b5998;
+// }
+
+/* .box:hover {
+        animation-name:spinx;
+        animation-duration:4s;
+        transform-origin:50% 50%;
+        animation-iteration-count:infinite;
+        animation-timing-function:linear;
+  } */
+
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+/* @keyframes spinx {
+        from { 	-webkit-transform:rotatex(0deg); }
+    to { -webkit-transform:rotatex(360deg); }
+  } */
+
+
+/* body { transition: background 4s }
+  body:hover { background: #000; } */
+
+p {
+    // position: absolute;
+    // top: 6px;
+    // left: 256px;
+    // font-size: 72px;
+    color: #dadada;
+    text-decoration: none;
+    font-family: sans-serif;
+}

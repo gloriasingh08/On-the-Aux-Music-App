@@ -1,0 +1,14 @@
+.Container{
+  height: 80vh;
+  overflow-y: auto;
+  >div{
+    height: 100%;
+    text-align: center;
+    color: black;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .Container {
+    height: 70vh;
+  }
+}

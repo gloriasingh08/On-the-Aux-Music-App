@@ -1,0 +1,58 @@
+.changePasswordForm {
+    width: 500px;
+}
+
+.form-group {
+    display: flex;
+}
+
+.btn {
+    width: 200px;
+}
+
+.changeTheme {
+    display: flex;
+}
+
+
+/* .AccSetting {
+background: var(--color-header-bg);
+}
+
+*/
+
+.AccSetting {
+    margin: auto;
+    margin-top: 40px;
+    width: 500px;
+}
+
+.main {
+    background-image: var(--bgImage);
+    margin-left: 23%;
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40vw;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 5px black;
+    // position: relative;
+    // opacity: 0.9;
+    // font-size: 1.5rem;
+}
+
+.image {
+    margin-bottom: 10px;
+    // height: 550px;
+}
+
+h4,
+label {
+    color: var(--color-text);
+}
+
+.seperator {
+    background-color: var(--color-text);
+}
